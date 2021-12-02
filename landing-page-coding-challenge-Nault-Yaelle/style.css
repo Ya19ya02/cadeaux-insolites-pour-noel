@@ -1,0 +1,124 @@
+/* Write some CSS below */
+body{
+	font-family: Montserrat, sans-serif; 
+	font-size: 15px;
+	background-color: #BF1313;
+	color : white;
+}
+
+h1{
+	font-family: Permanent Marker, cursive;
+	font-size: 50px;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+	font-size: 35px;
+	font-family: Permanent Marker, cursive;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+	font-family: Permanent Marker, cursive;
+	color: black;
+	font-size: 25px;
+}
+
+a{
+	text-decoration : none;
+}
+
+#banner-subtitle{
+	font-family: Permanent Marker, cursive;
+	font-size: 40px;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.banner{
+	background-image: url(images/banner.jpg);
+	background-size: cover; 
+	background-position: center;
+	text-align: center;
+	color: white; 
+	padding: 100px 0px;
+}
+
+.btn{
+	background-color: white;
+	padding: 10px 45px;
+	color: white;
+	font-size: 16px;
+	border-radius: 10px;
+	color: darkred;
+}
+
+.btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+	text-align: center;
+}
+
+#container-lettre{
+	margin-top: 70px;
+	background-image: url(images/banner-lettre.jpg);
+	background-size: cover; 
+	background-position: center;
+	color: black;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#christmas{
+	font-family: Gwendolyn, cursive;
+	font-size: 30px;
+	margin: 0px 100px 0px 100px;
+	text-align: justify;
+}
+
+.sign{
+	text-align: right;
+	font-family: Gwendolyn, cursive;
+	margin: 0px 100px 0px 100px;
+	font-size: 30px;
+}
+
+.card-white img{
+	width: 280px;
+	height: 280px; 
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.card-white{
+	background-color: #F4F3EE;
+	text-align: center;
+	width:  320px;
+	padding: 24px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	color: black;
+}
+
+
+.footer{
+	background-color: #095228;
+	text-align: center;
+	padding: 16px;
+	color: white;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
